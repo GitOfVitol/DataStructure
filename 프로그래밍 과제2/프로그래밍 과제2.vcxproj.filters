@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleItemType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="TempType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddItemWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="AddStorageContainerWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToMasterWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayMasterListWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMasterToTempWin.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="AddToTempWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTempListWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTempToMaster1stItemWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTempToMasterWindow.cpp">
+      <Filter>Source Files\GUI\Add</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayStorageTempWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteItemWindow.cpp">
+      <Filter>Source Files\GUI\Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteMasterListWindow.cpp">
+      <Filter>Source Files\GUI\Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteTempListWindow.cpp">
+      <Filter>Source Files\GUI\Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchItemWindow.cpp">
+      <Filter>Source Files\GUI\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateItemWindow.cpp">
+      <Filter>Source Files\GUI\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchMasterListWindow.cpp">
+      <Filter>Source Files\GUI\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchTempListWindow.cpp">
+      <Filter>Source Files\GUI\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchTwoInfoMasterWindow.cpp">
+      <Filter>Source Files\GUI\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMasterListWindow.cpp">
+      <Filter>Source Files\GUI\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateTempListWindow.cpp">
+      <Filter>Source Files\GUI\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayStoDetailItemWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayStoSimItemWindow.cpp">
+      <Filter>Source Files\GUI\Display</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7e1856a2-7a16-4dda-a528-2819dd0bede3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{5b64336c-a06c-449e-9212-d1c0a62e0ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structure">
+      <UniqueIdentifier>{6e6e0c13-13bf-475f-9eed-8cc4eb5494d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Type">
+      <UniqueIdentifier>{c2c588f3-4a60-4c88-8776-d803ca15db16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Type">
+      <UniqueIdentifier>{d9eede1a-a48d-4df8-a601-ffa0bc55170d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{f64e235c-c6f4-4a08-a14d-67b5bc161f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Add">
+      <UniqueIdentifier>{b30aa405-61a3-4437-acbd-ce2206d0895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Display">
+      <UniqueIdentifier>{1182d9f4-1669-4f33-8d32-e99102d0e5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Add">
+      <UniqueIdentifier>{ebbceca7-c664-43b5-bf3e-faf29fc85e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Display">
+      <UniqueIdentifier>{d4227c5e-6aaa-4279-b105-6c05215aa4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Add">
+      <UniqueIdentifier>{e58f7f02-24e9-43aa-a9a6-4d1514f3eeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Display">
+      <UniqueIdentifier>{75c5db44-ce3a-4947-a532-10bfacbc1e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Delete">
+      <UniqueIdentifier>{419e5c0c-d4e9-4ee5-aca5-e26a837cabd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Delete">
+      <UniqueIdentifier>{61c4db04-670b-40e0-9433-b5c4cc2207fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Delete">
+      <UniqueIdentifier>{8c84104a-ff24-41de-a798-6a4858f35ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Search">
+      <UniqueIdentifier>{ee72bd72-d894-4cec-8f1a-f9cfa78b70ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Update">
+      <UniqueIdentifier>{94285469-24ad-4b3b-b887-e2981637bd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Search">
+      <UniqueIdentifier>{d6334396-05a4-4aae-a2c2-1041d65dccaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Update">
+      <UniqueIdentifier>{680b0fc7-2890-4e9b-937f-52bb1b21a820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Search">
+      <UniqueIdentifier>{8987d1df-a2d0-4637-bed6-3660381517f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Update">
+      <UniqueIdentifier>{49bf7e2e-19e0-45cc-9437-322198f91642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MaterialManagement.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AddItemWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="AddStorageContainerWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="AddToMasterWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayMasterListWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+    <QtMoc Include="AddToTempWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayTempListWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+    <QtMoc Include="AddTempToMaster1stItemWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="AddMasterToTempWin.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="AddTempToMasterWindow.h">
+      <Filter>Header Files\GUI\Add</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayStorageTempWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+    <QtMoc Include="DeleteItemWindow.h">
+      <Filter>Header Files\GUI\Delete</Filter>
+    </QtMoc>
+    <QtMoc Include="DeleteMasterListWindow.h">
+      <Filter>Header Files\GUI\Delete</Filter>
+    </QtMoc>
+    <QtMoc Include="DeleteTempListWindow.h">
+      <Filter>Header Files\GUI\Delete</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchItemWindow.h">
+      <Filter>Header Files\GUI\Search</Filter>
+    </QtMoc>
+    <QtMoc Include="UpdateItemWindow.h">
+      <Filter>Header Files\GUI\Update</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchMasterListWindow.h">
+      <Filter>Header Files\GUI\Search</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchTempListWindow.h">
+      <Filter>Header Files\GUI\Search</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchTwoInfoMasterWindow.h">
+      <Filter>Header Files\GUI\Search</Filter>
+    </QtMoc>
+    <QtMoc Include="UpdateMasterListWindow.h">
+      <Filter>Header Files\GUI\Update</Filter>
+    </QtMoc>
+    <QtMoc Include="UpdateTempListWindow.h">
+      <Filter>Header Files\GUI\Update</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayStoDetailItemWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+    <QtMoc Include="DisplayStoSimItemWindow.h">
+      <Filter>Header Files\GUI\Display</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MaterialManagement.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MaterialManagement.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AddItemWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="AddStorageContainerWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="AddToMasterWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="DisplayMasterListWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+    <QtUic Include="AddMasterToTempWin.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="AddToTempWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="DisplayTempListWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+    <QtUic Include="AddTempToMaster1stItemWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="AddTempToMasterWindow.ui">
+      <Filter>Form Files\Add</Filter>
+    </QtUic>
+    <QtUic Include="DisplayWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+    <QtUic Include="DisplayStorageTempWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+    <QtUic Include="DeleteItemWindow.ui">
+      <Filter>Form Files\Delete</Filter>
+    </QtUic>
+    <QtUic Include="DeleteMasterListWindow.ui">
+      <Filter>Form Files\Delete</Filter>
+    </QtUic>
+    <QtUic Include="DeleteTempListWindow.ui">
+      <Filter>Form Files\Delete</Filter>
+    </QtUic>
+    <QtUic Include="UpdateItemWindow.ui">
+      <Filter>Form Files\Update</Filter>
+    </QtUic>
+    <QtUic Include="SearchItemWindow.ui">
+      <Filter>Form Files\Search</Filter>
+    </QtUic>
+    <QtUic Include="SearchMasterListWindow.ui">
+      <Filter>Form Files\Search</Filter>
+    </QtUic>
+    <QtUic Include="SearchTempListWindow.ui">
+      <Filter>Form Files\Search</Filter>
+    </QtUic>
+    <QtUic Include="SearchTwoInfoMasterWindow.ui">
+      <Filter>Form Files\Search</Filter>
+    </QtUic>
+    <QtUic Include="UpdateMasterListWindow.ui">
+      <Filter>Form Files\Update</Filter>
+    </QtUic>
+    <QtUic Include="UpdateTempListWindow.ui">
+      <Filter>Form Files\Update</Filter>
+    </QtUic>
+    <QtUic Include="DisplayStoDetailItemWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+    <QtUic Include="DisplayStoSimItemWindow.ui">
+      <Filter>Form Files\Display</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedList.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLinkedList.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublySortedLinkedList.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublyIterator.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="SimepleItemType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="TempType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

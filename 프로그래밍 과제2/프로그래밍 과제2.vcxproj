@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}</ProjectGuid>
+    <Keyword>QtVS_v302</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddItemWindow.cpp" />
+    <ClCompile Include="AddMasterToTempWin.cpp" />
+    <ClCompile Include="AddStorageContainerWindow.cpp" />
+    <ClCompile Include="AddTempToMaster1stItemWindow.cpp" />
+    <ClCompile Include="AddTempToMasterWindow.cpp" />
+    <ClCompile Include="AddToMasterWindow.cpp" />
+    <ClCompile Include="AddToTempWindow.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="DeleteItemWindow.cpp" />
+    <ClCompile Include="DeleteMasterListWindow.cpp" />
+    <ClCompile Include="DeleteTempListWindow.cpp" />
+    <ClCompile Include="DisplayMasterListWindow.cpp" />
+    <ClCompile Include="DisplayStoDetailItemWindow.cpp" />
+    <ClCompile Include="DisplayStorageTempWindow.cpp" />
+    <ClCompile Include="DisplayStoSimItemWindow.cpp" />
+    <ClCompile Include="DisplayTempListWindow.cpp" />
+    <ClCompile Include="DisplayWindow.cpp" />
+    <ClCompile Include="SearchItemWindow.cpp" />
+    <ClCompile Include="SearchMasterListWindow.cpp" />
+    <ClCompile Include="SearchTempListWindow.cpp" />
+    <ClCompile Include="SearchTwoInfoMasterWindow.cpp" />
+    <ClCompile Include="SimpleItemType.cpp" />
+    <ClCompile Include="StorageType.cpp" />
+    <ClCompile Include="TempType.cpp" />
+    <ClCompile Include="UpdateItemWindow.cpp" />
+    <ClCompile Include="UpdateMasterListWindow.cpp" />
+    <ClCompile Include="UpdateTempListWindow.cpp" />
+    <QtRcc Include="MaterialManagement.qrc" />
+    <QtUic Include="AddItemWindow.ui" />
+    <QtUic Include="AddMasterToTempWin.ui" />
+    <QtUic Include="AddStorageContainerWindow.ui" />
+    <QtUic Include="AddTempToMaster1stItemWindow.ui" />
+    <QtUic Include="AddTempToMasterWindow.ui" />
+    <QtUic Include="AddToMasterWindow.ui" />
+    <QtUic Include="AddToTempWindow.ui" />
+    <QtUic Include="DeleteItemWindow.ui" />
+    <QtUic Include="DeleteMasterListWindow.ui" />
+    <QtUic Include="DeleteTempListWindow.ui" />
+    <QtUic Include="DisplayMasterListWindow.ui" />
+    <QtUic Include="DisplayStoDetailItemWindow.ui" />
+    <QtUic Include="DisplayStorageTempWindow.ui" />
+    <QtUic Include="DisplayStoSimItemWindow.ui" />
+    <QtUic Include="DisplayTempListWindow.ui" />
+    <QtUic Include="DisplayWindow.ui" />
+    <QtUic Include="MaterialManagement.ui" />
+    <QtMoc Include="MaterialManagement.h" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="ContainerType.cpp" />
+    <ClCompile Include="ItemType.cpp" />
+    <ClCompile Include="MaterialManagement.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="SearchItemWindow.ui" />
+    <QtUic Include="SearchMasterListWindow.ui" />
+    <QtUic Include="SearchTempListWindow.ui" />
+    <QtUic Include="SearchTwoInfoMasterWindow.ui" />
+    <QtUic Include="UpdateItemWindow.ui" />
+    <QtUic Include="UpdateMasterListWindow.ui" />
+    <QtUic Include="UpdateTempListWindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UpdateTempListWindow.h" />
+    <QtMoc Include="UpdateMasterListWindow.h" />
+    <QtMoc Include="UpdateItemWindow.h" />
+    <QtMoc Include="AddItemWindow.h" />
+    <QtMoc Include="AddToMasterWindow.h" />
+    <QtMoc Include="AddStorageContainerWindow.h" />
+    <QtMoc Include="AddToTempWindow.h" />
+    <QtMoc Include="AddMasterToTempWin.h" />
+    <QtMoc Include="AddTempToMaster1stItemWindow.h" />
+    <QtMoc Include="AddTempToMasterWindow.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="ContainerType.h" />
+    <QtMoc Include="DisplayWindow.h" />
+    <QtMoc Include="DisplayMasterListWindow.h" />
+    <QtMoc Include="DisplayTempListWindow.h" />
+    <QtMoc Include="DisplayStorageTempWindow.h" />
+    <QtMoc Include="DeleteItemWindow.h" />
+    <QtMoc Include="DeleteMasterListWindow.h" />
+    <QtMoc Include="DeleteTempListWindow.h" />
+    <QtMoc Include="DisplayStoSimItemWindow.h" />
+    <QtMoc Include="DisplayStoDetailItemWindow.h" />
+    <ClInclude Include="DoublyIterator.h" />
+    <ClInclude Include="DoublySortedLinkedList.h" />
+    <ClInclude Include="ItemType.h" />
+    <QtMoc Include="SearchItemWindow.h" />
+    <QtMoc Include="SearchMasterListWindow.h" />
+    <QtMoc Include="SearchTempListWindow.h" />
+    <QtMoc Include="SearchTwoInfoMasterWindow.h" />
+    <ClInclude Include="SimepleItemType.h" />
+    <ClInclude Include="SingleLinkedList.h" />
+    <ClInclude Include="SortedList.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="StorageType.h" />
+    <ClInclude Include="TempType.h" />
+    <ClInclude Include="UnsortedList.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
