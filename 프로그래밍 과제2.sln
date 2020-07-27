@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "프로그래밍 과제2", "프로그래밍 과제2\프로그래밍 과제2.vcxproj", "{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}.Debug|x64.ActiveCfg = Debug|x64
+		{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}.Debug|x64.Build.0 = Debug|x64
+		{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}.Release|x64.ActiveCfg = Release|x64
+		{64B70133-AA96-40B8-8D34-A61D9AFFAC0C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6297EB1C-B516-47C8-8A1C-7810F015823F}
+	EndGlobalSection
+EndGlobal
